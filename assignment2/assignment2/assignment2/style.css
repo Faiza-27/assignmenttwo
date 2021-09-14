@@ -1,0 +1,145 @@
+body{
+    background-color: rgb(255, 247, 231);
+    
+}
+
+.container-fluid{
+    margin: 0px auto;
+    width: 97%;
+}
+
+
+
+.navbar-nav.navbar-center{
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+.carousel-caption {
+    width:100%;
+    height:100%;
+    left:0 !important;
+} 
+
+.carousel-caption h5{
+  text-align:left;
+  margin-left:40px;
+  margin-top: 200px;
+  font-size: 40px;
+ 
+  font-weight: 900;
+}
+.carousel-caption p{
+    text-align:left; 
+    margin-left:45px;
+    margin-top: 20px;
+    font-weight: 900;
+}
+.btn-dark{
+    margin-left:45px;
+    margin-top: 5px; 
+
+}
+
+#plane{
+    background: rgb(78, 78, 247);
+    height: 50px;
+   
+}
+#money{
+ background-color: tomato;
+
+}
+#support{
+    background-color: rgb(236, 236, 16);
+
+}
+
+.card{
+    border: none;
+    height: 250px;
+}
+
+
+.time{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.descImg{
+    width: 200px;
+    height: 200px;
+    border: 1px solid rgb(243, 228, 228);
+}
+.checked {
+    color: orange;
+  }
+.cart{
+    font-size: 30px;   
+}
+.fa-retweet{
+    font-size: 30px;
+}
+.fa-heart-o{
+    font-size: 30px;
+}
+.fa-eye{
+    font-size: 30px;
+}
+
+
+.bg{
+   background-color: rgb(29, 28, 28);
+}
+.carousel-indicators > li {
+    border-radius: 50%;
+  }
+
+.face{
+    background-color: rgb(85, 85, 202);
+    height: 49px;
+    padding: 10px;
+}
+.twi{
+    background-color: rgb(182, 182, 185);
+    padding: 10px;
+}
+.ins{
+    background-color: rgb(243, 39, 199);
+    padding: 10px;
+}
+.dri{
+    background-color: palevioletred;
+    padding: 10px;
+}
+.pin{
+    background-color: rgb(236, 37, 37);
+    padding: 10px;
+}
+
+#err1,#err2,#err3,#err4{
+    padding-left: 20px;
+}
+
+.hide{
+    margin-left: 30px;
+}
+
+ @media screen and (max-width: 1080px) {
+    .hide{
+        display: none;
+    }
+} 
+@media screen and (max-width: 810px) {
+    .hide{
+        display: none;
+    }
+} 
+@media screen and (max-width: 510px) {
+    .hide{
+        display: none;
+    }
+} 
+
